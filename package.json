@@ -1,0 +1,35 @@
+{
+    "name": "js-twitchchat",
+    "version": "1.0.0",
+    "description": "A simple live twitch chat, and can but used as a conky window <3",
+    "main": "main.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "nodemon ./dist/main.js",
+        "dev": "ts-node ./lib/main.ts",
+        "prod": "npm run build && npm run start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/herakumi/js-TwitchChat.git"
+    },
+    "keywords": [
+        "twitch",
+        "twitch-conky"
+    ],
+    "author": "herakumi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/herakumi/js-TwitchChat/issues"
+    },
+    "homepage": "https://github.com/herakumi/js-TwitchChat#readme",
+    "dependencies": {
+        "@types/events": "^1.2.0",
+        "@types/fs-promise": "^1.0.3",
+        "@types/node": "^10.5.8",
+        "events": "^3.0.0",
+        "ts-node": "^7.0.1",
+        "twitch-wrapper-ts": "^1.0.1",
+        "typescript": "^3.0.1"
+    }
+}

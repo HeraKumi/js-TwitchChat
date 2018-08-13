@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "pretty": true,
+        "sourceMap": true,
+        "strict": true,
+        "target": "es6",
+        "outDir": "./dist",
+        "baseUrl": "./lib"
+    },
+    "include": [
+        "lib/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
